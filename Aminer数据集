@@ -1,0 +1,4 @@
+知识图谱 英文名称:Knowledge Graph
+抽取了 AMiner 论文中出现频率最高的前 100,000 个关键字，如data mining，computer vision，social network analysis等，作为知识图谱中的标签，
+  并根据两个标签在论文中共同出现的频率计算他们之间的权重。
+另外，根据学者，机构或者出版期刊发表的论文将这些标签链接到对应的实体上.
