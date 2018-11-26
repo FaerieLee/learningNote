@@ -2,10 +2,8 @@
 抽取了 AMiner 论文中出现频率最高的前 100,000 个关键字，如data mining，computer vision，social network analysis等，作为知识图谱中的标签，
   并根据两个标签在论文中共同出现的频率计算他们之间的权重。
 另外，根据学者，机构或者出版期刊发表的论文将这些标签链接到对应的实体上.
-
-
-关于学科： 中华人民共和国学科分类与代码简表   （国标），   JCR的期刊分区。   SCI-E的学科分类。     
-落实Aminer的Knowledge Graph怎么出来的。  CJCR 的学科分类。       
+   
+落实Aminer的Knowledge Graph怎么出来的。         
 http://www.letpub.com.cn/index.php?page=2012-sci-13-top
 
  http://keg.cs.tsinghua.edu.cn/jietang/publications/KDD08-Tang-et-al-ArnetMiner.pdf
