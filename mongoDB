@@ -8,4 +8,6 @@ mongoimport -c people -d example --mode merge --file people-20160927.json
 
 mongod --dbpath 
 
+mongoimport --db test --collection jiaren --type json --mode merge --file /home/ziqi/毕业设计/data/aminer_papers_0/test/aminer_papers_26.txt
+
 
