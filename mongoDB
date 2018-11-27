@@ -3,3 +3,9 @@
 网址： https://docs.mongodb.com/manual/reference/program/mongoimport/index.html
 
 mongoimport -c people -d example --mode merge --file people-20160927.json
+
+启动mongodb的命令: https://docs.mongodb.com/manual/reference/program/mongod/#bin.mongod
+
+mongod --dbpath 
+
+
