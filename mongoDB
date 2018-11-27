@@ -1,0 +1,5 @@
+导入数据： mongoimport
+
+网址： https://docs.mongodb.com/manual/reference/program/mongoimport/index.html
+
+mongoimport -c people -d example --mode merge --file people-20160927.json
