@@ -12,3 +12,26 @@
 
 第六步:集成到系统里面去
 
+
+关键概念：
+
+cluster：集群， 以“名字”标识，一个node只能属于一个cluster，一个cluster只有一个node是valid and perfectly fine
+
+node： A node is a single server 
+          that is part of your cluster, stores your data, and participates in the cluster’s indexing and search capabilities
+          
+index：An index is a collection of documents that have somewhat similar characteristics.
+
+Type：对index进行逻辑上的划分，目前已被弃用
+
+Document: A document is a basic unit of information that can be indexed. This document is expressed in JSON (JavaScript Object Notation)
+
+shard(分片)：
+ parimary shard, replica shard
+ 
+ cluster: To check the cluster health, we will be using the _cat API
+ 
+ 健康状态：绿，黄(备份出问题)，红(部分数据出问题）
+ 
+ indics:目录
+
