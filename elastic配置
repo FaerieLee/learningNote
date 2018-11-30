@@ -1,0 +1,65 @@
+mapping：
+
+PUT paper_test1
+{
+  "settings": {
+    "number_of_shards": 5,
+    "number_of_replicas": 0
+  },
+  "mappings":{
+    "pap":{
+      "properties":{
+        "id":{
+          "type":"keyword"
+          
+        },
+        "title":{
+          "type":"keyword"
+          
+        },
+        "authors":{
+          "type":"nested"
+        },
+        "year":{
+          "type":"date",
+          "format":"yyyy"
+        },
+        "keywords":{
+          "type":"keyword"
+        },
+        "fos":{
+          "type":"keyword"
+        },
+        "doc_type":{
+          "type":"keyword",
+          "index":false
+        },
+        "lang":{
+          "type":"keyword"
+        },
+        "publisher":{
+          "type":"keyword"
+        },
+        "issn":{
+          "type":"keyword"
+        },
+        "isbn":{
+          "type":"keyword"
+        },
+        "doi":{
+          "type":"keyword"
+        },
+        "pdf":{
+          "type":"keyword"
+        },
+        "url":{
+          "type":"keyword"
+        },
+        "abstract":{
+          "type":"text"
+        }
+        
+      }
+    }
+  }
+}
