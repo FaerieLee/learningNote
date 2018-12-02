@@ -34,4 +34,16 @@ shard(分片)：
  健康状态：绿，黄(备份出问题)，红(部分数据出问题）
  
  indics:目录
+ 
+ 拷贝文件到远程路径的命令： scp /media/ziqi/DATA/信息检索/elasticsearch-6.5.1.tar.gz 17126189@172.31.34.105:/home/17126189/applications/
+ 
+ 设置堆内存：
+ 1. 查看： 
+    java -XX:+UnlockDiagnosticVMOptions -XX:+PrintCompressedOopsMode
+ 2：设置：不超过该值
+ 
+ 
+
+ 
+
 
