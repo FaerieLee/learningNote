@@ -35,15 +35,30 @@ shard(分片)：
  
  indics:目录
  
- 拷贝文件到远程路径的命令： scp /media/ziqi/DATA/信息检索/elasticsearch-6.5.1.tar.gz 17126189@172.31.34.105:/home/17126189/applications/
  
- 设置堆内存：
- 1. 查看： 
-    java -XX:+UnlockDiagnosticVMOptions -XX:+PrintCompressedOopsMode
- 2：设置：不超过该值
+ elasticsearch配置：
  
+ 1. 设置堆内存： 不超过内存的一半
+ java -XX:+UnlockDiagnosticVMOptions -XX:+PrintCompressedOopsMode
+ 查看the threshold for zero-based compressed oops;
  
+  2.修改path.data path.logs
+  3.修改nestwork.host 为0.0.0.0
+  4.修改堆转储：-XX:HeapDumpPath=/data/elasticData/heapDump 在jvm。options
+  5.修改gc日志存储位置： 8:-Xloggc:/data/elasticData/logs/gc.log
+                      9-:-Xlog:gc*,gc+age=trace,safepoint:file=/data/elasticData/logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m
+  6.设置temp directory
+  7.修改jvm error logs
+  8，修改垃圾收集器为g1收集器
+  
+  9. 关闭 swapping  /etc/fstab
+  10.设置virtual memory： vm.max_map_count = 65530 原有的值，
+  11. 修改nofile ， nproc ， 在文件limits.conf中
+  
 
- 
+  
+
+  
+
 
 
