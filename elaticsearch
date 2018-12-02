@@ -55,7 +55,9 @@ shard(分片)：
   10.设置virtual memory： vm.max_map_count = 65530 原有的值，
   11. 修改nofile ， nproc ， 在文件limits.conf中
   
-
+今天遇到的问题：
+  1.外网无法访问到 服务器上开启的服务， 添加端口映射 ， 然后关掉防火墙，然后重开一次 ，莫名其妙就好了，真的是很奇怪
+  
   
 
   
