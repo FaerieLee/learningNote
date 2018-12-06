@@ -41,6 +41,8 @@ shard(分片)：
  1. 设置堆内存： 不超过内存的一半
  java -XX:+UnlockDiagnosticVMOptions -XX:+PrintCompressedOopsMode
  查看the threshold for zero-based compressed oops;
+ 在64g内存的机器上面，不知道什么原因，运行该命令显示只有16g可用，但是仍然可以选择30g作为xmx，xms，通过在elasticsearch启动的日志里面可以看到，
+ 指针压缩仍然是有效的。
  
   2.修改path.data path.logs
   3.修改nestwork.host 为0.0.0.0
