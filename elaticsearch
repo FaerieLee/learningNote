@@ -65,7 +65,7 @@ shard(分片)：
     1. 问题1：修改index，给abstract增加字段，让其用于返回摘要的一部分，初步打算256字符。
     
     
-    服务器端口开放：
+    服务器端口开放： https://www.cnblogs.com/moxiaoan/p/5683743.html
   
   
 
