@@ -18,5 +18,18 @@ http://www.letpub.com.cn/index.php?page=2012-sci-13-top
  vneue:
  
  
+ Open Academic Graph： 数据集简介：
+ 
+ This version includes 166,192,182 papers from MAG and 154,771,162 papers from AMiner。
+ 
+ 虽然数据集大概上是相同的，但是在一些字段中还是一些区别的。
+ 
+ 166,192,182
+ mag：109993272篇是有fos字段的，94476176有keywords字段,75364339中两个字段都有,68206107有doi,没有issn字段，47720081有reference,
+ 80297123有abstract， name: 166192008, org:46649251,isbn:没有,lang:141682192
+ 
+ 153906627
+ aminer：所有论文是没有fos字段的，53564703有keywords字段，56898344有doi，33419982有issn。32577399有reference，36634075有摘要，
+ name:152437855,org:38361653,isbn:1758328, lang:153906627
 
 
