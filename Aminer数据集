@@ -26,10 +26,11 @@ http://www.letpub.com.cn/index.php?page=2012-sci-13-top
  
  166,192,182
  mag：109993272篇是有fos字段的，94476176有keywords字段,75364339中两个字段都有,68206107有doi,没有issn字段，47720081有reference,
- 80297123有abstract， name: 166192008, org:46649251,isbn:没有,lang:141682192
+ 80297123有abstract， name: 166192008, org:46649251,isbn:没有,lang:141682192，venue:61051941, publisher: 100358932,url:
+ 161847144
  
  153906627
  aminer：所有论文是没有fos字段的，53564703有keywords字段，56898344有doi，33419982有issn。32577399有reference，36634075有摘要，
- name:152437855,org:38361653,isbn:1758328, lang:153906627
+ name:152437855,org:38361653,isbn:1758328, lang:153906627，venue:81895312,publisher: 0 , url:65131457
 
 
