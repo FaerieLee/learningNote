@@ -1,0 +1,20 @@
+数据清洗:
+
+1. 删除没有name的paper：
+POST aminer/_delete_by_query
+{
+  "query": {
+    "bool":{
+      "must_not":{
+        "wildcard":{
+          "authors.name":"*"
+        }
+      }
+    }
+}
+}
+
+
+
+
+
