@@ -24,13 +24,18 @@ http://www.letpub.com.cn/index.php?page=2012-sci-13-top
  
  虽然数据集大概上是相同的，但是在一些字段中还是一些区别的。
  
+ 论文：大纲视图，目录，自动编号，
+ 
  166,192,182
  mag：109993272篇是有fos字段的，94476176有keywords字段,75364339中两个字段都有,68206107有doi,没有issn字段，47720081有reference,
  80297123有abstract， name: 166192008, org:46649251,isbn:没有,lang:141682192，venue:61051941, publisher: 100358932,url:
- 161847144
+ 161847144， fos+doi:54367717, fos+doi+abstract:39421550, fos+doi+abstract+keywords:33161386,
+ name+org:46649251 , 
+ 
  
  153906627
  aminer：所有论文是没有fos字段的，53564703有keywords字段，56898344有doi，33419982有issn。32577399有reference，36634075有摘要，
- name:152437855,org:38361653,isbn:1758328, lang:153906627，venue:81895312,publisher: 0 , url:65131457
+ name:152437855,org:38361653,isbn:1758328, lang:153906627，venue:81895312,publisher: 0 , url:65131457,doi+abstract+keywords:
+ 15598493 , doi+abstract:22832274, name+org:38361302
 
 
