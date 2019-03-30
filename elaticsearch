@@ -72,6 +72,12 @@ shard(分片)：
     https://www.elastic.co/guide/en/elasticsearch/guide/current/making-text-searchable.html
   
   
+selenium自动化测试采取python客户端驱动，主要模拟用户的输入，提交，翻页等操作，测试浏览器包括Chrome，Firefox，Edge。测试流程见下图:
+
+
+
+
+	测试结果:
 
   
 
